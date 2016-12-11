@@ -2,18 +2,9 @@ body {
 	background-color: #EEEEEE;
 }
 
-h1 {
-	font-size: 20px;	
-}
-
-p {
-	font-size: 16px;
-	
-}
-
-p, h1 {
+.section {
 	color: 363636;
-	text-align: center;
+	text-align: left;
 	max-width:600px;
 	margin: auto;
 	line-height: 1.4;
