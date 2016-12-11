@@ -1,0 +1,21 @@
+body {
+	background-color: #EEEEEE;
+}
+
+h1 {
+	font-size: 20px;	
+}
+
+p {
+	font-size: 16px;
+	
+}
+
+p, h1 {
+	color: 363636;
+	text-align: center;
+	max-width:600px;
+	margin: auto;
+
+}
+
