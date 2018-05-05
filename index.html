@@ -2,12 +2,54 @@
 <html lang= "en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Paul Langton</title>
+	<title>paul langton</title>
 	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-	<h1 id="name">Paul Langton</h1>
-	<img id="profile" src="img/me.jpg">	
+	<div class="grid">
+		<div class="grid-column" id="left">
+			<div class="grid-square" id="top-left" onmouseover="colorGridSquare(this)" onmouseout="reset(this)">
+				<h1>contact</h1>
+			</div>
+
+			<div class="grid-square" id="middle-left">
+				<h1>cv</h1>
+			</div>
+
+			<div class="grid-square" id="bottom-left">
+				<h1>projects</h1>
+			</div>
+		</div>
+
+		<div class="grid-column" id="middle">
+			<div class="grid-square" id="top-middle">
+				<h1>about</h1>
+			</div>
+
+			<div class="grid-square" id="middle-middle">
+				<h1>paul langton</h1>
+			</div>
+
+			<div class="grid-square" id="bottom-middle">
+				<h1>linkedin</h1>
+			</div>
+		</div>
+
+		<div class="grid-column" id="right">
+			<div class="grid-square" id="top-right">
+				<h1>cool stuff</h1>
+			</div>
+
+			<div class="grid-square" id="middle-right">
+				<h1>a thing</h1>
+			</div>
+
+			<div class="grid-square" id="bottom-right">
+				<h1>a thing 2</h1>
+			</div>
+		</div>
+<!-- <h1 id="name">Paul Langton</h1>
+	<img id="profile" src="img/me.jpg">
 	<div id="contact">
 		<a href="https://github.com/plangton4">Github</a>
 		<br>
@@ -22,10 +64,18 @@
 	<div class="section" id="about">
 		<h2 class="section-head">About</h2>
 		<p>
-			I am currently a sophomore at Northeastern University, where I study Computer Science 
-			with a concentration in Cyber Operations. I enjoy soccer, electronic music, software 
-			design, and crypto. Starting January 2016 I will be on co-op at MIT Lincoln Labs.
+
 		</p>
+	</div> -->
 	</div>
-</body>	
+</body>
+<script type='text/javascript'>
+function colorGridSquare(this) {
+	console.log(this.id)
+}
+
+function eraseGridSquare() {
+
+}
+</script>
 </html>
