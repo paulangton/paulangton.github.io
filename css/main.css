@@ -36,6 +36,9 @@ p {
 	width: 100%;
 	opacity: 0;
 	transition: .2s ease;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #top-left-overlay {
@@ -109,10 +112,10 @@ p {
 
 .grid-column {
 	width: 33%;
+	height: 100%;
 }
 
 .grid {
   display: flex;                       /* establish flex container */
   flex-wrap: wrap;                     /* enable flex items to wrap */
-  justify-content: space-around;
 }
