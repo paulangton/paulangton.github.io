@@ -19,7 +19,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, a {
 	flex: 1;
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
@@ -29,13 +29,6 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-p {
-	color: 737373;
-	font-size: 18px;
-	font-family: "Inconsolata", sans-serif;
-	line-height: 1.4;
 }
 
 .overlay {
