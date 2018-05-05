@@ -13,6 +13,17 @@ h1 {
   text-align: center;
 }
 
+h2 {
+	font-family: "Inconsolata", sans-serif;
+	white-space: nowrap;
+	font-size: 30px;
+	color: #FFFFFF;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 p {
 	color: 737373;
 	font-size: 18px;
@@ -20,35 +31,86 @@ p {
 	line-height: 1.4;
 }
 
-.section {
-	text-align: center;
-	max-width: 600px;
-	margin: auto;
+
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .2s ease;
 }
 
-.section-head {
-	text-align: center;
+#top-left-overlay {
+  background-color: #F44336; # indigo
 }
 
-#name {
-	text-align: left;
+#top-middle-overlay {
+  background-color: #00BCD4; # cyan
 }
 
-#about {
-	text-align: left;
+#top-right-overlay {
+  background-color: #4CAF50; # light green
 }
 
-#profile {
-	height: auto;
-	width: auto;
-	max-height: 300px;
-	max-width: 300px;
+#middle-left-overlay {
+  background-color: #9C27B0; # purple
+}
+
+#middle-right-overlay {
+  background-color: #3F51B5; # red
+}
+
+#bottom-left-overlay {
+  background-color: #03A9F4; # blue
+}
+
+#bottom-middle-overlay {
+  background-color: #FFEB3B; # yellow
+}
+
+#bottom-right-overlay {
+  background-color: #FF5722; # orange
+}
+
+#top-left:hover #top-left-overlay {
+	opacity: 1;
+}
+
+#top-middle:hover #top-middle-overlay {
+	opacity: 1;
+}
+
+#top-right:hover #top-right-overlay {
+	opacity: 1;
+}
+
+#middle-left:hover #middle-left-overlay {
+	opacity: 1;
+}
+
+#middle-right:hover #middle-right-overlay {
+	opacity: 1;
+}
+
+#bottom-left:hover #bottom-left-overlay {
+	opacity: 1;
+}
+
+#bottom-middle:hover #bottom-middle-overlay {
+	opacity: 1;
+}
+
+#bottom-right:hover #bottom-right-overlay {
+	opacity: 1;
 }
 
 .grid-square {
-	width: 33%;
 	height: 33%;
 	text-align: center;
+}
+
+.grid-column {
+	width: 33%;
 }
 
 .grid {

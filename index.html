@@ -4,26 +4,35 @@
 	<meta charset="UTF-8">
 	<title>paul langton</title>
 	<link href="css/main.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="grid">
 		<div class="grid-column" id="left">
-			<div class="grid-square" id="top-left" onmouseover="colorGridSquare(this)" onmouseout="reset(this)">
-				<h1>contact</h1>
+			<div class="grid-square" id="top-left">
+				<div id="top-left-overlay", class="overlay">
+					<h2>contact</h2>
+				</div>
 			</div>
 
 			<div class="grid-square" id="middle-left">
-				<h1>cv</h1>
+				<div id="middle-left-overlay" class="overlay">
+					<h2>cv</h2>
+				</div>
 			</div>
 
 			<div class="grid-square" id="bottom-left">
-				<h1>projects</h1>
+				<div id="bottom-left-overlay" class="overlay">
+					<h2>projects</h2>
+				</div>
 			</div>
 		</div>
 
 		<div class="grid-column" id="middle">
 			<div class="grid-square" id="top-middle">
-				<h1>about</h1>
+				<div id="top-middle-overlay" class="overlay">
+					<h2>about</h2>
+				</div>
 			</div>
 
 			<div class="grid-square" id="middle-middle">
@@ -31,51 +40,33 @@
 			</div>
 
 			<div class="grid-square" id="bottom-middle">
-				<h1>linkedin</h1>
+				<div id="bottom-middle-overlay" class="overlay">
+					<h2>linkedin</h2>
+				</div>
 			</div>
 		</div>
 
 		<div class="grid-column" id="right">
 			<div class="grid-square" id="top-right">
-				<h1>cool stuff</h1>
+				<div id="top-right-overlay" class="overlay">
+					<h2>cool stuff</h2>
+				</div>
 			</div>
 
 			<div class="grid-square" id="middle-right">
-				<h1>a thing</h1>
+				<div id="middle-right-overlay" class="overlay">
+					<h2>a thing</h2>
+				</div>
 			</div>
 
 			<div class="grid-square" id="bottom-right">
-				<h1>a thing 2</h1>
+				<div id="bottom-right-overlay" class="overlay">
+					<h2>a thing 2</h2>
+				</div>
 			</div>
 		</div>
-<!-- <h1 id="name">Paul Langton</h1>
-	<img id="profile" src="img/me.jpg">
-	<div id="contact">
-		<a href="https://github.com/plangton4">Github</a>
-		<br>
-		<a href="mailto:paullangton4@gmail.com">Email</a>
-	</div>
-	<div class="section" id="projects">
-		<h2 class="section-head">Projects</h2>
-		<p>
-			List of projects soon to come!
-		</p>
-	</div>
-	<div class="section" id="about">
-		<h2 class="section-head">About</h2>
-		<p>
-
-		</p>
-	</div> -->
 	</div>
 </body>
 <script type='text/javascript'>
-function colorGridSquare(this) {
-	console.log(this.id)
-}
-
-function eraseGridSquare() {
-
-}
 </script>
 </html>
