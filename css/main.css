@@ -2,11 +2,6 @@ html {
 	height: 100%;
 }
 
-body {
-	height: 100%;
-	background-color: #EEEEEE;
-}
-
 h1 {
 	flex: 1;
 	font-family: "Inconsolata", sans-serif;
@@ -42,7 +37,7 @@ h2 {
   text-align: center;
 }
 
-.textcontainer {
+.pagecontainer {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% /3);
