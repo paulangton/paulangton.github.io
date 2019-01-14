@@ -48,24 +48,32 @@ h2 {
     width: calc(100% /3);
 }
 
+.sectioncontainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .pagetitle {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
-	font-size: 40px;
+	font-size: 5em;
 	color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .sectiontitle {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
-	font-size: 25px;
+	font-size: 2.5em;
 	color: #FFFFFF;
 }
 
 .infopara {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
-	font-size: 10px;
+	font-size: 1.5em;
 	color: #FFFFFF;
 }
 
