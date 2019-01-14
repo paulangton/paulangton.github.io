@@ -42,27 +42,27 @@ h2, a {
   text-align: center;
 }
 
-#textcontainer {
+.textcontainer {
     margin-left: auto;
     margin-right: auto;
     width: calc(100% /3);
 }
 
-#pagetitle {
+.pagetitle {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
 	font-size: 40px;
 	color: #FFFFFF;
 }
 
-#sectiontitle {
+.sectiontitle {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
 	font-size: 25px;
 	color: #FFFFFF;
 }
 
-#infopara {
+.infopara {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
 	font-size: 10px;
