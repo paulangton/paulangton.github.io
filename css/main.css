@@ -42,6 +42,33 @@ h2, a {
   text-align: center;
 }
 
+#textcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% /3);
+}
+
+#pagetitle {
+	font-family: "Inconsolata", sans-serif;
+	white-space: nowrap;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+
+#sectiontitle {
+	font-family: "Inconsolata", sans-serif;
+	white-space: nowrap;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#infopara {
+	font-family: "Inconsolata", sans-serif;
+	white-space: nowrap;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
 #top-left-overlay {
   background-color: #F44336; # indigo
 }
