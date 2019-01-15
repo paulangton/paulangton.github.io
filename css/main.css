@@ -50,7 +50,7 @@ h2 {
 	font-family: "Inconsolata", sans-serif;
 	white-space: nowrap;
 	font-size: 5em;
-	color: #FFFFFF;
+	color: black;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -58,16 +58,16 @@ h2 {
 
 .sectiontitle {
 	font-family: "Inconsolata", sans-serif;
-	white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
 	font-size: 2.5em;
-	color: #FFFFFF;
+	color: black;
 }
 
 .infopara {
 	font-family: "Inconsolata", sans-serif;
-	white-space: nowrap;
 	font-size: 1.5em;
-	color: #FFFFFF;
+	color: black;
 }
 
 #top-left-overlay {
