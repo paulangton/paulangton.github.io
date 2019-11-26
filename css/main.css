@@ -34,6 +34,18 @@ h2 {
   text-align: center;
 }
 
+.overlay a {
+    text-decoration: none;
+	flex: 1;
+	font-family: "Inconsolata", sans-serif;
+	white-space: nowrap;
+	font-size: 30px;
+	color: #FFFFFF;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .pagecontainer {
     margin-left: auto;
