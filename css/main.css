@@ -230,14 +230,12 @@ h2 {
   position: fixed;
   z-index: 1;
   overflow-x: hidden;
-  position:absolute;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
   top:0;
   left:0;
-  bottom:0;
   right:0;
 }
 
