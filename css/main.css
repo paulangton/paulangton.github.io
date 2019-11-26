@@ -34,16 +34,6 @@ h2 {
   text-align: center;
 }
 
-.sidenav {
-    width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  left: 10px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
 
 .pagecontainer {
     margin-left: auto;
@@ -86,6 +76,70 @@ h2 {
 
 .writingsample {
     margin: 1em;
+}
+
+#nav1-overlay {
+  background-color: #F44336; # indigo
+}
+
+#nav2-overlay {
+  background-color: #00BCD4; # cyan
+}
+
+#nav3-overlay {
+  background-color: #4CAF50; # light green
+}
+
+#nav4-overlay {
+  background-color: #9C27B0; # purple
+}
+
+#nav5-overlay {
+  background-color: #3F51B5; # red
+}
+
+#nav6-overlay {
+  background-color: #03A9F4; # blue
+}
+
+#nav7-overlay {
+  background-color: #FFEB3B; # yellow
+}
+
+#nav8-overlay {
+  background-color: #FF5722; # orange
+}
+
+#nav1:hover #nav1-overlay {
+	opacity: 1;
+}
+
+#nav2:hover #nav2-overlay {
+	opacity: 1;
+}
+
+#nav3:hover #nav3-overlay {
+	opacity: 1;
+}
+
+#nav4:hover #nav4-overlay {
+	opacity: 1;
+}
+
+#nav5:hover #nav5-overlay {
+	opacity: 1;
+}
+
+#nav6:hover #nav6-overlay {
+	opacity: 1;
+}
+
+#nav7:hover #nav7-overlay {
+	opacity: 1;
+}
+
+#nav8:hover #nav8-overlay {
+	opacity: 1;
 }
 
 #top-left-overlay {
@@ -159,9 +213,32 @@ h2 {
 	height: 33%;
 }
 
+.nav-square {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 33%;
+}
+
 .grid-column {
 	width: 33%;
 	height: 100%;
+}
+
+.sidenav {
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+	flex: 1;
+	display: -webkit-flex;
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;
+	position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
 }
 
 .grid {
