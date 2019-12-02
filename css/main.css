@@ -119,6 +119,39 @@ h2 {
 #nav8-overlay {
   background-color: #FF5722; # orange
 }
+
+#nav1 #nav1-overlay {
+	opacity: 1;
+}
+
+#nav2 #nav2-overlay {
+	opacity: 1;
+}
+
+#nav3 #nav3-overlay {
+	opacity: 1;
+}
+
+#nav4 #nav4-overlay {
+	opacity: 1;
+}
+
+#nav5 #nav5-overlay {
+	opacity: 1;
+}
+
+#nav6 #nav6-overlay {
+	opacity: 1;
+}
+
+#nav7 #nav7-overlay {
+	opacity: 1;
+}
+
+#nav8 #nav8-overlay {
+	opacity: 1;
+}
+
 #top-left-overlay {
   background-color: #F44336; # indigo
 }
