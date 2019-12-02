@@ -90,67 +90,44 @@ h2 {
 
 #nav1-overlay {
   background-color: #F44336; # indigo
+	opacity: 1;
 }
 
 #nav2-overlay {
   background-color: #00BCD4; # cyan
+	opacity: 1;
 }
 
 #nav3-overlay {
   background-color: #4CAF50; # light green
+	opacity: 1;
 }
 
 #nav4-overlay {
   background-color: #9C27B0; # purple
+	opacity: 1;
 }
 
 #nav5-overlay {
   background-color: #3F51B5; # red
+	opacity: 1;
 }
 
 #nav6-overlay {
   background-color: #03A9F4; # blue
+	opacity: 1;
 }
 
 #nav7-overlay {
   background-color: #FFEB3B; # yellow
+	opacity: 1;
 }
 
 #nav8-overlay {
   background-color: #FF5722; # orange
-}
-
-#nav1 #nav1-overlay {
 	opacity: 1;
 }
 
-#nav2 #nav2-overlay {
-	opacity: 1;
-}
-
-#nav3 #nav3-overlay {
-	opacity: 1;
-}
-
-#nav4 #nav4-overlay {
-	opacity: 1;
-}
-
-#nav5 #nav5-overlay {
-	opacity: 1;
-}
-
-#nav6 #nav6-overlay {
-	opacity: 1;
-}
-
-#nav7 #nav7-overlay {
-	opacity: 1;
-}
-
-#nav8 #nav8-overlay {
-	opacity: 1;
-}
 
 #top-left-overlay {
   background-color: #F44336; # indigo
